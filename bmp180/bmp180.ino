@@ -54,7 +54,7 @@ void loop() {
                     Serial.print(" mmHg = ");
                     Serial.print(P * 0.750061683, 2);
 
-                    p0 = pressure.sealevel(P, ALTITUDE); // we're at 943.7 meters 
+                    p0 = pressure.sealevel(P, ALTITUDE); // we're at 1147 meters 
                     Serial.print("\nrelative (sea-level) pressure: ");
                     Serial.print(p0, 2);
                     Serial.println(" hpa ");;
